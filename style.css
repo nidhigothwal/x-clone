@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.left-box {
+    width: 50%;
+    float: left;
+}
+
+.right-box {
+    width: 50%;
+    float: right;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: rgb(231, 220, 220);
+    font-size: 60px;
+    padding-left: 50px;
+    padding-top: 100px;
+    letter-spacing: -1.2px;
+    font-weight: bold;
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(231, 220, 220);
+    padding-top: 40px;
+    padding-left: 50px;
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+.button-google {
+    width: 50%;
+    margin-top: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 50px;
+    color: rgb(75, 72, 72);
+    font-size: 15px;
+    border: white;
+}
+
+.button-apple {
+    width: 50%;
+    margin-top: 8px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 50px;
+    color: black;
+    font-size: 15px;
+    border: white;
+
+
+}
+
+.svg-icon {
+    width: 30px;
+    height: 20px;
+    margin-right: 3px;
+    padding-top: 1px;
+
+}
+
+.line-or {
+    width: 300px;
+    border-top: 1px solid rgb(100, 96, 96);
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.line-or span {
+    background-color: black;
+    position: relative;
+    top: -12px;
+    padding: 0 8px;
+    color: white;
+}
+
+.create-account {
+    width: 50%;
+    margin-top: 10px;
+    height: 42px;
+    border-radius: 20px;
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+    background-color: #1d9bf0;
+    border: white;
+}
+
+.agree-details {
+    color: gray;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+.link-color {
+    color: #1d9bf0;
+    text-decoration: none;
+}
+
+.footer-text {
+    color: #e7e9ea;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 18px;
+    word-spacing: -1.2px;
+}
+
+.sign-in {
+    width: 50%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color: #000000;
+    font-size: 15px;
+    color: #1d9bf0;
+    border: 1px solid gray;
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+    .left-box {
+        width: 200px;
+    }
+
+    .img {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 40px;
+
+    }
+
+    .right-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .left-box{
+        width: 200px;
+    }
+    .right-box{
+        width: 100%;
+    }
+.img{
+    width: 200px;
+}
+
+
+
+
+    h1{
+        font-size: 38px;
+
+    }
+h2{
+
+    font-size: 30px;
+}
+.button-apple{
+    width: 80%;
+}
+.button-google{
+    width: 80%;
+
+}
+.create-account{
+    width: 80%;
+
+}
+.sign-in{
+    width: 80%;
+}
+.line-or{
+    width: 80%;
+}
+
+}
